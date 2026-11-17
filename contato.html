@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Sabores do Campo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="cabecalho">
+    <a href="index.html" class="logo">
+        <img src="logo.png" alt="Sabores do Campo">
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="restaurantes.html">Restaurantes</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="contato.html" class="ativo">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="titulo-pagina">
+        <h1>Entre em contato</h1>
+        <p>Será um prazer receber sua mensagem!</p>
+    </section>
+
+    <section class="contato-container">
+
+        <div class="contato-info">
+            <h2>Fale com a gente</h2>
+
+            <p>
+                Entre em contato para consultar informações,
+                horários de funcionamento e reservas.
+            </p>
+
+            <div class="informacao">
+                <span>📞</span>
+                <div>
+                    <h3>Telefone</h3>
+                    <p>(12) 3456-7890</p>
+                </div>
+            </div>
+
+            <div class="informacao">
+                <span>◎</span>
+                <div>
+                    <h3>Instagram</h3>
+                    <p>@saboresdocampo</p>
+                </div>
+            </div>
+
+            <div class="informacao">
+                <span>🗺️</span>
+                <div>
+                    <h3>Endereço</h3>
+                    <p>Rua das Flores, 123 - Centro</p>
+                    <p>Lorena - SP</p>
+                </div>
+            </div>
+
+            <div class="informacao">
+                <span>🕛</span>
+                <div>
+                    <h3>Funcionamento</h3>
+                    <p>Segunda a Sábado</p>
+                    <p>11h às 15h | 18h às 22h</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="formulario" id="formContato">
+            <h2>Envie sua mensagem</h2>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" placeholder="Assunto da mensagem">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+
+            <button type="submit" class="botao">Preparar mensagem</button>
+
+            <p id="resultado-form" aria-live="polite"></p>
+        </form>
+
+    </section>
+
+    <section class="imagem-contato">
+        <img src="Corporativo.png" alt="Ambiente Sabores do Campo">
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <div class="rodape-coluna">
+        <img src="logo.png" alt="Sabores do Campo">
+    </div>
+    <div class="rodape-coluna">
+        <p>📞 (12) 3456-7890</p>
+        <p>◎ @saboresdocampo</p>
+        <p>🗺️ Lorena - SP</p>
+    </div>
+    <div class="rodape-coluna">
+        <h3>Horário de funcionamento</h3>
+        <p>Segunda a Sábado</p>
+        <p>11h às 15h | 18h às 22h</p>
+    </div>
+    <div class="rodape-coluna redes">
+        <a href="#">◎</a>
+        <a href="#">f</a>
+    </div>
+    <div class="rodape-final">
+        Sabores do Campo •  Comida boa, gente feliz!
+    </div>
+</footer>
+
+</body>
+</html>
